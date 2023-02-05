@@ -1,11 +1,10 @@
 import React from 'react';
-import hexaLogo from '../../images/hexa.png'
-const Client = () => {
+const Client = ({ client }) => {
     return (
-        <div className="card glass">
-            <figure><img src={hexaLogo} alt="car!" /></figure>
+        <div className="card border-4">
+            <figure><img src={client.image} alt="car!" /></figure>
             <div className="card-body p-2">
-                <h2 className="text-center font-bold">Hexa Company LTD.</h2>
+                <h2 className="text-center font-bold">{client.name}</h2>
             </div>
         </div>
     );

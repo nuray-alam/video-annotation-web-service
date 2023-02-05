@@ -1,4 +1,5 @@
 import React from 'react';
+import LinkButton from '../ui/LinkButton';
 
 const HomePageHero = () => {
     return (
@@ -8,7 +9,7 @@ const HomePageHero = () => {
                 <div className="max-w-md">
                     <h1 className="mb-5 text-5xl text-primary p-5 bg-white bg-opacity-60 rounded-lg font-bold">A Great Data Annotation Platform for Computer Vision</h1>
                     <p className="mb-5 text-primary bg-white bg-opacity-60 rounded-lg">We do video annotation in very efficient way.</p>
-                    <button className="btn btn-primary rounded-lg">Get Started</button>
+                  <LinkButton link='/contact'>Get Started</LinkButton>
                 </div>
             </div>
         </div>

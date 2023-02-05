@@ -6,7 +6,7 @@ const Navbar = ({ themeChangeHandler, theme }) => {
     const menuItems = <>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/service">Services</Link></li>
-        <li><a href="#clients">Clients</a></li>
+        <li><Link to="/clients">Clients</Link></li>
         <li><Link to='/about'>About</Link></li>
         <li><Link to='/contact'>Contact</Link></li>
     </>

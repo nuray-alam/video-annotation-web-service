@@ -1,9 +1,14 @@
 import React from 'react';
+import Clients from '../../components/Clients/ClientList';
+import Divider from '../../components/Divider/Divider';
+import HomePageHero from '../../components/Hero/HomePageHero';
 
 const HomePage = () => {
     return (
         <div >
-            <h2 className='text-2xl'>This is HomePage</h2>
+            <HomePageHero></HomePageHero>
+            <Divider></Divider>
+            <Clients></Clients>
         </div>
     );
 };

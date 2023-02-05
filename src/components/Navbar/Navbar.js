@@ -6,11 +6,13 @@ const Navbar = ({ themeChangeHandler, theme }) => {
     const menuItems = <>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/service">Services</Link></li>
+        <li><a href="#clients">Clients</a></li>
         <li><Link to='/about'>About</Link></li>
+        <li><Link to='/contact'>Contact</Link></li>
     </>
 
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 sticky top-0 z-50">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
